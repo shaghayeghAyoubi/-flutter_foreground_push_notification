@@ -28,3 +28,5 @@ class MainActivity: FlutterActivity() {
         }
     }
 }
+/*Recieves the startService call*/
+/*starts the PushNotificationService as a foreground service using Android APIs*/

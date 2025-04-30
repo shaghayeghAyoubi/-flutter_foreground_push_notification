@@ -64,3 +64,7 @@ class PushNotificationService : Service() {
 
     override fun onBind(intent: Intent?): IBinder? = null
 }
+
+/*this service shows a persistent notification (required for foreground services)
+* it runs code in the background (you can customize it for sync , fetching , etc)
+* startForeground() is critical-- without it , android will kill the service on API 28+*/
